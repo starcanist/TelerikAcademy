@@ -1,0 +1,33 @@
+body {
+    background-color: #A7A7A7;
+}
+
+.center {
+   text-align: center;
+}
+
+ul {
+    list-style: none;
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+.yellowish {
+    color: wheat;
+}
+
+li {
+    font-size: 20px;
+    color: white;
+}
+
+li:nth-child(2) {
+    background-color: #D1D1D1;
+    
+}
+
+li:nth-child(4) {
+    text-decoration: underline;
+    
+}
