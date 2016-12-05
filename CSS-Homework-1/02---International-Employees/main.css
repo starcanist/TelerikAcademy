@@ -1,0 +1,42 @@
+body {}
+table {
+    border: none;
+    border-collapse: collapse;
+    font-family: Calibri;
+}
+th {
+    text-align: left;
+    font-weight: normal;
+    color: white;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 4px;
+    background: linear-gradient(#5BBF06, #4FB206);
+    /* Other browsers */
+    background: -moz-linear-gradient(top, #5BBF06 0%, #4FB206 100%);
+    /* Firefox */
+    background: -webkit-linear-gradient(top, #5BBF06 0%, #4FB206 100%);
+    /* Safari */
+    background: linear-gradient(to bottom, #5BBF06 0%, #4FB206 100%);
+    /* IE */
+}
+td {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    width: 130px;
+    padding: 4px;
+}
+table td:first-child {
+    border-left: none;
+}
+table td:last-child {
+    border-right: none;
+}
+table tr:nth-child(even) {
+    background-color: lightgray;
+}
+img {
+    height: 20px;
+    vertical-align: bottom;
+}
