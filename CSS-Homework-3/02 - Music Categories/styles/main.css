@@ -1,0 +1,32 @@
+.main-body {
+    background-color: #EEEEEE;
+    height: 538px;
+    width: 421px;
+    border-radius: 5px;
+    font-family: "Tahoma";
+}
+
+.music {
+    padding: 20px 15px 5px 15px;
+    
+}
+
+article {
+    margin: 30px 10px;    
+    width: 370px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #BBBBBB;
+    padding: 15px;
+}
+
+img {
+    float: left;
+    display: inline-block;
+    width: 150px;
+}
+
+p {
+    font-size: 12px;
+    display: inline;
+}

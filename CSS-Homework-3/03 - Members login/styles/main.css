@@ -1,0 +1,53 @@
+#main-body {
+    width: 622px;
+    height: 299px;
+    background-color: #3D3D3D;
+    border-radius: 5px;
+    font-family: "Times New Roman";
+}
+header {
+    padding: 10px;
+}
+section {
+    padding: 0px 40px 0px 10px;
+}
+.shadow {
+    border-top: 1px solid #202020;
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
+h1 {
+    color: yellow;
+    font-weight: 300;
+    font-size: 25px;
+    padding: 10px 0px 0px;
+    margin: 0;
+}
+p {
+    color: #9F9F9F;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+span {
+    font-size: 20px;
+    color: white;
+    padding: 0 10px;
+}
+input {
+    margin: 0 5px;
+    width: 150px;
+}
+img {
+    width: 45px;
+    vertical-align: middle;
+}
+.container {
+    display: inline-block;
+    float: right;
+}
+.button {
+    padding: 10px;
+}

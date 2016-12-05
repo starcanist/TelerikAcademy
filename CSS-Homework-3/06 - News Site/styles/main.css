@@ -1,0 +1,78 @@
+/*
+Color 1: #233942;
+Color 2: #4C5E66;
+Color 3: #91A9B0;
+*/
+
+.main-body {
+    width: 612px;
+    height: 326px;
+    font-family: "Tahoma";
+    font-size: 13px;
+    background-color: #233942;
+    border-radius: 3px;
+}
+
+/* Navigation */
+
+ul {
+    list-style: none;
+    padding: 15px 0 0 0px;
+}
+li {
+    display: inline;
+    background-color: #4C5E66;
+    color: #91A9B0;
+    padding: 8px 10px;
+}
+li:hover {
+    text-decoration: underline;
+}
+.selected {
+    background-color: #233942;
+}
+.sport {    
+    text-decoration: underline;
+}
+
+/* Left Menu */
+
+.left {
+    float: left;
+}
+.right {
+    float: left;
+}
+.article {
+    margin: 7px;
+    color: #91A9B0;
+    width: 235px;
+}
+
+article {    
+    padding: 5px 0;
+}
+
+article:hover {
+    background-color: #4C5E66;    
+}
+
+.article:hover {
+    color: white;
+}
+
+article:nth-child(1) {
+    padding: 7px;
+    background-color: #4C5E66; 
+    color: white;
+}
+
+hr {
+    background-color: #4C5E66;
+    height: 1px;
+    border: 0;
+    margin: 0;
+}
+
+/* Video - Hardest Part */
+img {}
