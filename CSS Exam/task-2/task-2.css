@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background: black;
+    /* Lame No-Support Browsers */
+    background: -webkit-linear-gradient(black, gray);
+    /* Safari */
+    background: -o-linear-gradient(black, gray);
+    /* Opera */
+    background: -moz-linear-gradient(black, gray);
+    /* Firefox */
+    background: linear-gradient(black, gray);
+    /* Standart */
+}
+
+/* Nav Menu */
+
+.navigation {
+    background-color: rgb(60, 60, 60);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+}
+.nav-tabs {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+.file {
+    position: relative;
+    display: inline;
+    vertical-align: bottom;
+    float: left;
+    height: 25px;
+    padding: 15px 15px 15px 15px;
+    background-color: rgb(60, 60, 60);
+    color: lightgray;
+    border: 1px solid gray;
+    border-radius: 1px;
+}
+.selected {
+    background-color: rgb(13, 13, 13);
+    border-bottom: none !important;
+    /* :(  */
+}
+.file:hover {
+    background-color: rgb(128, 128, 124);
+}
+.file-html:before {
+    content: url(imgs/html-icon.png);
+    zoom: 5%;
+}
+.file-css:before {
+    content: url(imgs/css-icon.png);
+    zoom: 6%;
+}
+.file-sass:before {
+    content: url(imgs/sass-icon.png);
+    zoom: 5%;
+}
+
+/* Body */
+
+.container {
+    color: white;
+    padding: 50px 0 0 0;
+}
+ol {
+    padding-left: 45px
+}
+.code-lines {
+    font-family: "Courier";
+    font-weight: 100px;
+}
+
+.code-lines li {
+    padding: 2px;
+    font-size: 18px;
+}
+.code-lines li:hover {
+    background-color: rgb(128, 128, 124);
+    font-weight: 600;
+}
+li .selector:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* No time to figure out "Select all Lists with Class X in Them" :( */
+
+.selector {
+    color: yellow;
+}
+.property {
+    color: deepskyblue;
+    display: inline-block;
+    text-indent: 20px;
+}
+.function {
+    color: darkred;
+}

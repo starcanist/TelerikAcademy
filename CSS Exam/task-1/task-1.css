@@ -1,0 +1,97 @@
+#wrapper {
+    width: 543px;
+    height: 590px;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.header {
+    display: inline;
+}
+
+.footer {
+    margin: 15px 0;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+
+
+.logo {
+    width: 50px;
+    float: left;
+    vertical-align: bottom;
+    margin-right: 5px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.name {
+    font-size: 21px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgb(54,88,153);
+    font-weight: 600;
+    padding: 0 0 0 3px;
+}
+
+.timestamp {
+    text-decoration: none;
+    color: rgb(194,175,162);
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 15px;
+    color: gray;
+    font-family: sans-serif;
+    padding: 8px 0;
+}
+
+.event {
+    box-shadow: 0px 0px 10px gray;
+}
+.main-image {
+    width: 100%;
+}
+
+.title {
+    font-size: 24px;
+    padding: 5px 15px;
+}
+
+.author, .capital {
+    color: gray;    
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.author {
+    padding: 0px 15px;
+}
+
+.capital {
+    padding: 10px 15px 20px;
+    text-transform: uppercase;
+}
+
+.like, .comment, .share {
+    padding: 5px;
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.like:before {
+    content: url(imgs/like.png);
+    padding: 0px 5px;
+}
+
+.comment:before {
+    content: url(imgs/comment.png);
+        padding: 0px 5px;
+}
+
+.share:before {
+    content: url(imgs/share.png);
+    padding: 0px 5px;
+}
